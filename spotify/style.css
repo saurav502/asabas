@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body {
+    /* background-image: url(img/6.jpg); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 97vh;
+}
+
+header {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    height: 10vh;
+    width: 100%;
+    color: white;
+}
+
+.logo {
+    margin-left: 80px;
+    margin-top: 6px;
+}
+
+.logo img {
+    height: 5vh;
+}
+
+.navlist {
+    margin-left: 77vh;
+    font-size: 20px;
+}
+
+.navlist ul {
+    display: flex;
+}
+
+.navlist ul li {
+    list-style: none;
+}
+
+.navlist ul li a {
+    text-decoration: none;
+    padding: 0px 20px;
+    color: white;
+    font-weight: bolder;
+}
+
+header .login {
+    margin-left: 60vh;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 0px 20px;
+    color: white;
+    font-weight: bolder;
+}
+
+header a:hover {
+    color: crimson;
+    transition: all .4s ease;
+}
+
+header ul li a:hover {
+    color: crimson;
+    transition: all .4s ease;
+}
+
+.title {
+    color: white;
+    padding: 12% 20%;
+    line-height: 1.7;
+    box-sizing: border-box;
+}
+
+.title h3 {
+    font-size: 25px;
+    color: #ffffff;
+}
+
+.title h2 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #ff0000;
+}
+
+.title p {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.title .btn a {
+    color: #ffffff;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 5px 10px;
+    background: #ff0000;
+    border-radius: 20px;
+    display: flex;
+    width: 12%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.title .btn i {
+    font-size: 30px;
+    margin-left: -10px;
+}
+
+.title .btn a:hover {
+    color: rgb(0, 0, 0);
+    transition: all .4s ease;
+    transform: scale(0.9);
+}
+
+.movie-list{
+    max-width: 100%;
+    background: rgb(0, 0, 0);
+}
+.movies {
+
+    margin: 6% 0;
+    color: #ffffff;
+    height: 100vh;
+    /* max-width: 100%; */
+}
+
+.movies h1 {
+    margin: 25px 30px;
+    padding-top: 35px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.latest-movies {
+    display: flex;
+}
+
+
+.latest-movies img {
+    width: 80%;
+    padding: 10px 40px;
+    height: 75%;
+}
+
+.movie-title {
+    margin: 10px;
+    text-align: center;
+}
+
+.movie-title h2 {
+    font-size: 30px;
+}
+
+.movie-title p {
+    text-align: left;
+    font-size: 15px;
+    line-height: 1.5rem;
+    margin: 1rem;
+}
